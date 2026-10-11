@@ -16,10 +16,11 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="muted">Trivia Pipeline · Last updated: 10 October 2026</p>
+  <p class="muted">Trivia Pipeline · Last updated: 11 October 2026</p>
 
   <p>Trivia Pipeline ("the app") is a private tool used only by the owner of the Tricky Trivia and Tough Trivia YouTube
-  channels to upload his own videos to his own channels. This policy explains what the app does with data.</p>
+  channels to upload his own videos to his own channels and to view the statistics of his own channels. This policy
+  explains what the app does with data.</p>
 
   <h2>YouTube API Services</h2>
   <p>The app uses YouTube API Services. By using the app you agree to be bound by the
@@ -28,10 +29,11 @@
 
   <h2>What the app accesses</h2>
   <ul>
-    <li>The app requests one permission: <code>youtube.upload</code>, which lets it upload videos and set thumbnails on
-    the signed-in user's channel.</li>
-    <li>It does not read, collect or store any other data from YouTube or Google: no viewer data, no comments, no
-    analytics and no data about other users.</li>
+    <li><code>youtube.upload</code>: to upload videos and set thumbnails on the signed-in owner's channel.</li>
+    <li><code>youtube.readonly</code> and <code>yt-analytics.readonly</code>: to read the statistics of the owner's own
+    channel and videos (for example views, watch time and audience retention), so he can see which videos work best.</li>
+    <li>The app never accesses other users' accounts or data, and does not read comments or any personal data about
+    viewers. YouTube Analytics data is aggregated by YouTube and does not identify individual viewers.</li>
   </ul>
 
   <h2>How data is stored</h2>
@@ -39,6 +41,8 @@
     <li>The OAuth access token is stored only on the channel owner's own computer, in a file readable only by that
     user. It is never sent anywhere except to Google's servers when uploading.</li>
     <li>The videos, titles, descriptions and thumbnails are the channel owner's own content.</li>
+    <li>Statistics are shown only to the owner in his own terminal and are not stored by the app. If the owner ever
+    keeps a copy, it stays on his own computer and is deleted within 7 days if access is revoked.</li>
   </ul>
 
   <h2>Sharing</h2>
@@ -50,8 +54,8 @@
   Deleting the local token file also removes the app's access from the computer.</p>
 
   <h2>Data deletion</h2>
-  <p>The app keeps no YouTube data. If access is revoked, or on request to the contact address below, the local token
-  file is deleted immediately; nothing else needs deleting.</p>
+  <p>The app does not store YouTube data. If access is revoked, or on request to the contact address below, the local
+  token file and any local copies of statistics are deleted within 7 days.</p>
 
   <h2>Contact</h2>
   <p>Questions about this policy: <a href="mailto:madsbendz@gmail.com">madsbendz@gmail.com</a></p>
